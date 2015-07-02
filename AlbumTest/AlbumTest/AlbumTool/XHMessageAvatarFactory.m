@@ -11,8 +11,7 @@
 
 @implementation XHMessageAvatarFactory
 
-+ (UIImage *)avatarImageNamed:(UIImage *)originImage
-            messageAvatarType:(XHMessageAvatarType)messageAvatarType {
++ (UIImage *)avatarImageNamed:(UIImage *)originImage messageAvatarType:(XHMessageAvatarType)messageAvatarType {
     CGFloat radius = 0.0;
     switch (messageAvatarType) {
         case XHMessageAvatarTypeNormal:
