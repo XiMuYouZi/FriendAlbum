@@ -60,6 +60,19 @@
 		326E01431B452E2000A0DD71 /* XHMessageAvatarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E013C1B452E2000A0DD71 /* XHMessageAvatarFactory.m */; };
 		326E01441B452E2000A0DD71 /* XHPhotographyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E013E1B452E2000A0DD71 /* XHPhotographyHelper.m */; };
 		326E01451B452E2000A0DD71 /* XHStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E01401B452E2000A0DD71 /* XHStoreManager.m */; };
+		326E01531B452F8A00A0DD71 /* Default-375w-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01461B452F8900A0DD71 /* Default-375w-667h@2x.png */; };
+		326E01541B452F8A00A0DD71 /* Default-414w-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01471B452F8900A0DD71 /* Default-414w-736h@3x.png */; };
+		326E01551B452F8A00A0DD71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01481B452F8900A0DD71 /* Default-568h@2x.png */; };
+		326E01561B452F8A00A0DD71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01491B452F8900A0DD71 /* Default.png */; };
+		326E01571B452F8A00A0DD71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E014A1B452F8900A0DD71 /* Default@2x.png */; };
+		326E01581B452F8A00A0DD71 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E014B1B452F8900A0DD71 /* Icon-60@2x.png */; };
+		326E01591B452F8A00A0DD71 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E014C1B452F8900A0DD71 /* Icon-60@3x.png */; };
+		326E015A1B452F8A00A0DD71 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E014D1B452F8900A0DD71 /* Icon-72.png */; };
+		326E015B1B452F8A00A0DD71 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E014E1B452F8900A0DD71 /* Icon-72@2x.png */; };
+		326E015C1B452F8A00A0DD71 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E014F1B452F8A00A0DD71 /* Icon-76.png */; };
+		326E015D1B452F8A00A0DD71 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01501B452F8A00A0DD71 /* Icon-76@2x.png */; };
+		326E015E1B452F8A00A0DD71 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01511B452F8A00A0DD71 /* Icon.png */; };
+		326E015F1B452F8A00A0DD71 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326E01521B452F8A00A0DD71 /* Icon@2x.png */; };
 		32DC64C21B43D92D00A747E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC64C11B43D92D00A747E0 /* main.m */; };
 		32DC64C51B43D92D00A747E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC64C41B43D92D00A747E0 /* AppDelegate.m */; };
 		32DC64C81B43D92D00A747E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC64C71B43D92D00A747E0 /* ViewController.m */; };
@@ -174,6 +187,19 @@
 		326E013E1B452E2000A0DD71 /* XHPhotographyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPhotographyHelper.m; sourceTree = "<group>"; };
 		326E013F1B452E2000A0DD71 /* XHStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHStoreManager.h; sourceTree = "<group>"; };
 		326E01401B452E2000A0DD71 /* XHStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHStoreManager.m; sourceTree = "<group>"; };
+		326E01461B452F8900A0DD71 /* Default-375w-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-375w-667h@2x.png"; sourceTree = "<group>"; };
+		326E01471B452F8900A0DD71 /* Default-414w-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-414w-736h@3x.png"; sourceTree = "<group>"; };
+		326E01481B452F8900A0DD71 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		326E01491B452F8900A0DD71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		326E014A1B452F8900A0DD71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		326E014B1B452F8900A0DD71 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		326E014C1B452F8900A0DD71 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		326E014D1B452F8900A0DD71 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		326E014E1B452F8900A0DD71 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		326E014F1B452F8A00A0DD71 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		326E01501B452F8A00A0DD71 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		326E01511B452F8A00A0DD71 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		326E01521B452F8A00A0DD71 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		32DC64BC1B43D92D00A747E0 /* AlbumTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DC64C01B43D92D00A747E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32DC64C11B43D92D00A747E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -393,6 +419,19 @@
 		32DC64BF1B43D92D00A747E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				326E01461B452F8900A0DD71 /* Default-375w-667h@2x.png */,
+				326E01471B452F8900A0DD71 /* Default-414w-736h@3x.png */,
+				326E01481B452F8900A0DD71 /* Default-568h@2x.png */,
+				326E01491B452F8900A0DD71 /* Default.png */,
+				326E014A1B452F8900A0DD71 /* Default@2x.png */,
+				326E014B1B452F8900A0DD71 /* Icon-60@2x.png */,
+				326E014C1B452F8900A0DD71 /* Icon-60@3x.png */,
+				326E014D1B452F8900A0DD71 /* Icon-72.png */,
+				326E014E1B452F8900A0DD71 /* Icon-72@2x.png */,
+				326E014F1B452F8A00A0DD71 /* Icon-76.png */,
+				326E01501B452F8A00A0DD71 /* Icon-76@2x.png */,
+				326E01511B452F8A00A0DD71 /* Icon.png */,
+				326E01521B452F8A00A0DD71 /* Icon@2x.png */,
 				32DC64C01B43D92D00A747E0 /* Info.plist */,
 				32DC64C11B43D92D00A747E0 /* main.m */,
 				32DC64FF1B43DBDF00A747E0 /* AlbumTest-Prefix.pch */,
@@ -482,14 +521,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326E01571B452F8A00A0DD71 /* Default@2x.png in Resources */,
+				326E015F1B452F8A00A0DD71 /* Icon@2x.png in Resources */,
 				326E012E1B452C8D00A0DD71 /* Album_like_icon@2x.png in Resources */,
+				326E015B1B452F8A00A0DD71 /* Icon-72@2x.png in Resources */,
 				326E00DC1B451A7A00A0DD71 /* book@2x.png in Resources */,
 				32DC64CB1B43D92D00A747E0 /* Main.storyboard in Resources */,
 				326E01311B452C8D00A0DD71 /* AlbumOperateMore@2x.png in Resources */,
+				326E01561B452F8A00A0DD71 /* Default.png in Resources */,
+				326E01591B452F8A00A0DD71 /* Icon-60@3x.png in Resources */,
 				326E01341B452C8D00A0DD71 /* pullrefresh.aif in Resources */,
+				326E015E1B452F8A00A0DD71 /* Icon.png in Resources */,
+				326E01551B452F8A00A0DD71 /* Default-568h@2x.png in Resources */,
+				326E01531B452F8A00A0DD71 /* Default-375w-667h@2x.png in Resources */,
+				326E01581B452F8A00A0DD71 /* Icon-60@2x.png in Resources */,
 				326E01011B452C4000A0DD71 /* SECoreTextView.bundle in Resources */,
+				326E015A1B452F8A00A0DD71 /* Icon-72.png in Resources */,
 				326E01321B452C8D00A0DD71 /* AlbumOperateMoreHL@2x.png in Resources */,
 				326E01301B452C8D00A0DD71 /* AlbumHeaderBackgrounImage@2x.png in Resources */,
+				326E015D1B452F8A00A0DD71 /* Icon-76@2x.png in Resources */,
+				326E01541B452F8A00A0DD71 /* Default-414w-736h@3x.png in Resources */,
+				326E015C1B452F8A00A0DD71 /* Icon-76.png in Resources */,
 				326E012D1B452C8D00A0DD71 /* album_add_photo@2x.png in Resources */,
 				326E01331B452C8D00A0DD71 /* circle@2x.png in Resources */,
 				326E012F1B452C8D00A0DD71 /* Album_likes_comments_background@2x.png in Resources */,
