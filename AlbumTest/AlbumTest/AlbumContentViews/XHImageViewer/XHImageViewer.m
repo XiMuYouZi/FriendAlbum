@@ -3,7 +3,6 @@
 //  XHImageViewer
 //
 //  Created by 曾 宪华 on 14-2-17.
-//  Copyright (c) 2014年 曾宪华 开发团队(http://iyilunba.com ) 本人QQ:543413507 本人QQ群（142557668）. All rights reserved.
 //
 
 #import "XHImageViewer.h"
@@ -11,11 +10,10 @@
 #import "XHZoomingImageView.h"
 
 @interface XHImageViewer ()
-
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) NSArray *imgViews;
-
 @end
+
 
 @implementation XHImageViewer
 
@@ -73,7 +71,6 @@
 }
 
 #pragma mark- Properties
-
 - (void)setBackgroundColor:(UIColor *)backgroundColor {
     [super setBackgroundColor:[backgroundColor colorWithAlphaComponent:0]];
 }
@@ -83,16 +80,13 @@
 }
 
 #pragma mark- View management
-
 - (UIImageView *)currentView {
     return [_imgViews objectAtIndex:self.pageIndex];
 }
 
 - (void)showWithSelectedView:(UIImageView *)selectedView {
     [self.scrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    
     const NSInteger currentPage = [_imgViews indexOfObject:selectedView];
-    
     UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
     
     if(_scrollView == nil) {
@@ -103,7 +97,6 @@
         _scrollView.backgroundColor = [self.backgroundColor colorWithAlphaComponent:1];
         _scrollView.alpha = 0;
     }
-    
     [self addSubview:_scrollView];
     [window addSubview:self];
     

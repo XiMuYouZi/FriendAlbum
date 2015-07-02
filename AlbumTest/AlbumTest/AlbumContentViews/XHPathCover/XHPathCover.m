@@ -346,20 +346,23 @@ NSString *const XHBirthdayKey = @"XHBirthday";
     UITapGestureRecognizer *tapGestureRecongnizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureRecongnizerHandle:)];
     [_bannerView addGestureRecognizer:tapGestureRecongnizer];
     
+    dout_rect(_bannerView.frame);
+    
     _bannerImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -self.parallaxHeight, CGRectGetWidth(_bannerView.frame), CGRectGetHeight(_bannerView.frame) + self.parallaxHeight * 2)];
     _bannerImageView.contentMode = UIViewContentModeScaleToFill;
     [_bannerView addSubview:self.bannerImageView];
+    dout_rect(_bannerImageView.frame);
     
     _bannerImageViewWithImageEffects = [[UIImageView alloc] initWithFrame:_bannerImageView.frame];
     _bannerImageViewWithImageEffects.alpha = 0.;
     [_bannerView addSubview:self.bannerImageViewWithImageEffects];
-    
+    dout_rect(self.bannerImageViewWithImageEffects.frame);
+
     [self addSubview:self.bannerView];
     
     CGFloat waterDropRefreshHeight = 100;
     CGFloat waterDropRefreshWidth = 20;
     _waterDropRefresh = [[XHWaterDropRefresh alloc] initWithFrame:CGRectMake(33, CGRectGetHeight(self.bounds) - waterDropRefreshHeight, waterDropRefreshWidth, waterDropRefreshHeight)];
-    _waterDropRefresh.refreshCircleImage = [UIImage imageNamed:@"circle"];
     _waterDropRefresh.offsetHeight = 20; // 线条的长度
     [self addSubview:self.waterDropRefresh];
     

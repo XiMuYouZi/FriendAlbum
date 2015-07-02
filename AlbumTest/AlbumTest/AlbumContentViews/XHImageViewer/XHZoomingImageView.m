@@ -12,8 +12,8 @@
 
 @property (nonatomic, readwrite, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UIView *containerView;
-
 @end
+
 
 @implementation XHZoomingImageView
 
@@ -41,7 +41,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
         [self _setup];
     }
     return self;
@@ -52,7 +51,6 @@
 }
 
 #pragma mark- Properties
-
 - (UIImage *)image {
     return _imageView.image;
 }
@@ -69,12 +67,9 @@
     if(imageView != _imageView) {
         [_imageView removeObserver:self forKeyPath:@"image"];
         [_imageView removeFromSuperview];
-        
         _imageView = imageView;
         _imageView.frame = _imageView.bounds;
-        
         [_imageView addObserver:self forKeyPath:@"image" options:0 context:nil];
-        
         [_containerView addSubview:_imageView];
         
         _scrollView.zoomScale = 1;
@@ -92,7 +87,6 @@
 }
 
 #pragma mark- observe
-
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     if(object == self.imageView) {
         [self imageDidChange];
@@ -116,7 +110,6 @@
 }
 
 #pragma mark- Scrollview delegate
-
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return _containerView;
 }

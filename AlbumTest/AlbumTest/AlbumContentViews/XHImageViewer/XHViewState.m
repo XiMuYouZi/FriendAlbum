@@ -9,6 +9,7 @@
 #import "XHViewState.h"
 
 @implementation XHViewState
+@dynamic transform;
 
 + (XHViewState *)viewStateForView:(UIView *)view {
     static NSMutableDictionary *dict = nil;
